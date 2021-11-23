@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">    
+  <script src="script.js" defer></script>
+</head>
+
+<body class="flex justify-center items-center m-0 bg-gray-200 font-family: 'Poppins', sans-serif">
+  <div class="card bg-blue-900 text-white p-4 rounded-lg w-100 m-2 mt-40">
+    <div class="search">
+      <input type="text" class="search-bar border-0 outline-none p-1 rounded-lg bg-blue-500 text-white text-lg" placeholder="Search">
+      <button class="m-1 rounded-full border-0 bg-white h-9 w-9 outline-none bg-blue-500 text-white cursor-pointer transition duration-500 ease-in-out hover:bg-green-500"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg></button>
+    </div>
+    <div class="weather loading">
+      <h2 class="city">Weather in Lagos</h2>
+      <h1 class="temp m-0">51°C</h1>
+      <div class="flex">  
+        <img src="" alt="" class="icon" />
+        <div class="description">Rainy</div>
+      </div>
+      <div class="humidity">Humidity: 50%</div>
+      <div class="wind">Wind speed: 9.2 km/h</div>
+    </div>
+  </div>
+</body>
+
+</html>
